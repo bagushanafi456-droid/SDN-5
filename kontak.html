@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="asset/favicon.png" type="image/png">
+    <title>Kontak Sekolah - SDN GAYAM 5 SUKOHARJO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+                <img src="asset/logo-sd.png" alt="Logo SDN GAYAM 5" width="32" height="32" class="me-2"> SDN GAYAM 5
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil.html">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="berita.html">Berita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-warning" href="ppdb.html">SPMB</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Contact Header -->
+    <div class="kontak-hero">
+        <div class="kontak-hero-overlay">
+            <h1 class="display-4 fw-bold text-white mb-3">Kontak Kami</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-white text-decoration-none">Beranda</a></li>
+                    <li class="breadcrumb-item text-white-50 active" aria-current="page">Kontak Kami</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Map Section with Location Title -->
+    <section class="map-section py-5">
+        <div class="container">
+            <div class="location-header text-center mb-4">
+                <div class="location-icon-wrapper mb-3">
+                    <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <h2 class="fw-bold text-primary">Lokasi Kami</h2>
+                <p class="text-muted">SD Negeri Gayam 05 Sukoharjo</p>
+            </div>
+            
+            <div class="map-wrapper">
+                <div class="map-info-card">
+                    <div class="d-flex align-items-start">
+                        <div class="map-pin-icon me-2">
+                            <i class="bi bi-geo-alt-fill text-danger"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold text-danger mb-1">SDN GAYAM 5 SUKOHARJO</h6>
+                            <p class="small text-muted mb-1">Jl. Bima No. 24, Gayam,<br>Kec. Sukoharjo, Kab. Sukoharjo,<br>Jawa Tengah 57514</p>
+                            <a href="https://www.google.com/maps/dir//SD+Negeri+Gayam+05+Jl+Bima+No+24+Sukoharjo+Jawa+Tengah" target="_blank" class="small text-primary text-decoration-none">
+                                <i class="bi bi-arrow-up-right-circle me-1"></i>Rute
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://www.google.com/maps/search/SD+Negeri+Gayam+05+Sukoharjo" target="_blank" class="small text-primary text-decoration-none d-block mt-3">
+                        Lihat peta lebih besar
+                    </a>
+                </div>
+                <div class="map-embed-container">
+                    <iframe 
+                        src="https://www.google.com/maps?q=SD+Negeri+Gayam+05+Jl+Bima+No+24+Sukoharjo+Jawa+Tengah&output=embed"
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Boxes Section - Below Map -->
+    <section class="contact-boxes-section py-5">
+        <div class="container">
+            <div class="row justify-content-center g-4">
+                <div class="col-lg-5 col-md-6">
+                    <div class="contact-card-minimal">
+                        <h4 class="contact-minimal-title">Hubungi Kami</h4>
+                        <p class="contact-minimal-value">0271 593604</p>
+                        <p class="contact-minimal-desc">Senin - Jumat: 07:00 - 15:00 WIB<br>Sabtu: 07:00 - 12:00 WIB</p>
+                        <a href="tel:0271593604" class="btn btn-outline-primary btn-contact-minimal">
+                            Telepon Sekarang
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="contact-card-minimal">
+                        <h4 class="contact-minimal-title">Email Kami</h4>
+                        <p class="contact-minimal-value">sdn.gayam05skh@gmail.com</p>
+                        <p class="contact-minimal-desc">Respon dalam 1x24 jam kerja</p>
+                        <a href="mailto:sdn.gayam05skh@gmail.com" class="btn btn-outline-primary btn-contact-minimal">
+                            Kirim Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Helpdesk Section -->
+    <section class="helpdesk-section py-5">
+        <div class="container text-center">
+            <p class="helpdesk-text mb-4">untuk info lebih lanjut, saran, kritik dapat menghubungi helpdesk contact di bawah :</p>
+            <div class="helpdesk-icons mb-4">
+                <a href="https://www.instagram.com/sdngayam05skh/" target="_blank" class="helpdesk-icon instagram-icon" title="Instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://wa.me/6287736402411" target="_blank" class="helpdesk-icon whatsapp-icon" title="WhatsApp">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+            </div>
+            <p class="helpdesk-subtext"><em>klik ikon media sosial yang ingin anda hubungi</em></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5><i class="bi bi-mortarboard-fill me-2"></i>SDN GAYAM 5 SUKOHARJO</h5>
+                    <p class="small">Membentuk generasi cerdas, berkarakter, dan berprestasi untuk masa depan Indonesia yang lebih baik.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Kontak</h5>
+                    <p class="small mb-1"><strong>Provinsi:</strong> Jawa Tengah</p>
+                    <p class="small mb-1"><strong>Kabupaten:</strong> Sukoharjo</p>
+                    <p class="small mb-1"><strong>Kecamatan:</strong> Sukoharjo</p>
+                    <p class="small mb-1"><strong>Kelurahan:</strong> Gayam</p>
+                    <p class="small mb-1"><i class="bi bi-telephone-fill me-2"></i>0271593604</p>
+                    <p class="small mb-1"><i class="bi bi-envelope-fill me-2"></i>sdn.gayam05skh@gmail.com</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Tautan Cepat</h5>
+                    <ul class="list-unstyled small">
+                        <li><a href="profil.html" class="text-white text-decoration-none">Profil Sekolah</a></li>
+                        <li><a href="berita.html" class="text-white text-decoration-none">Berita</a></li>
+                        <li><a href="kontak.html" class="text-white text-decoration-none">Kontak</a></li>
+                        <li><a href="ppdb.html" class="text-white text-decoration-none">PPDB</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="bg-white">
+            <div class="text-center small">
+                <p class="mb-0">&copy; 2024 SDN GAYAM 5 SUKOHARJO. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

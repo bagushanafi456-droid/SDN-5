@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="asset/favicon.png" type="image/png">
+    <title>Berita Sekolah - SDN GAYAM 5 SUKOHARJO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+                <img src="asset/logo-sd.png" alt="Logo SDN GAYAM 5" width="32" height="32" class="me-2"> SDN GAYAM 5
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil.html">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="berita.html">Berita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Kontak</a>
+                    </li>
+                                        <li class="nav-item">
+                        <a class="nav-link fw-bold text-warning" href="ppdb.html">SPMB</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <div class="berita-hero">
+        <div class="berita-hero-overlay">
+            <div class="container">
+                <h1 class="display-4 fw-bold text-white">Berita</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a href="index.html" class="text-warning">Beranda</a></li>
+                        <li class="breadcrumb-item active text-white" aria-current="page">Berita</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- Berita List -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row" id="newsContainer">
+                <!-- Berita 1 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-category="pengumuman">
+                    <div class="card berita-card h-100">
+                        <div class="berita-card-img-wrapper">
+                            <img src="asset/berita/placeholder.jpg" class="card-img-top" alt="Promo SPMB Tahun Ajaran 2026/2027">
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <div class="berita-date">
+                                    <i class="bi bi-calendar3 me-1"></i> 30 Okt 2025
+                                </div>
+                                <div class="berita-social-icons">
+                                    <a href="#" class="text-primary"><i class="bi bi-facebook"></i></a>
+                                    <a href="#" class="text-danger"><i class="bi bi-instagram"></i></a>
+                                    <a href="#" class="text-dark"><i class="bi bi-tiktok"></i></a>
+                                    <a href="#" class="text-danger"><i class="bi bi-youtube"></i></a>
+                                </div>
+                            </div>
+                            <h5 class="card-title mb-3">Tulis disini</h5>
+                            <p class="card-text text-muted">tulis disini</p>
+                            <a href="detail-berita.html?id=1" class="btn btn-primary mt-2">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Berita 2 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-category="kegiatan">
+                    <div class="card berita-card h-100">
+                        <div class="berita-card-img-wrapper">
+                            <img src="asset/berita/placeholder.jpg" class="card-img-top" alt="In House Training (IHT) Pembuatan Soal Berbasis Computer Based Test (CBT)">
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <div class="berita-date">
+                                    <i class="bi bi-calendar3 me-1"></i> 28 Okt 2025
+                                </div>
+                                <div class="berita-social-icons">
+                                    <a href="#" class="text-primary"><i class="bi bi-facebook"></i></a>
+                                    <a href="#" class="text-danger"><i class="bi bi-instagram"></i></a>
+                                    <a href="#" class="text-dark"><i class="bi bi-tiktok"></i></a>
+                                    <a href="#" class="text-danger"><i class="bi bi-youtube"></i></a>
+                                </div>
+                            </div>
+                            <h5 class="card-title mb-3">Tulis disini</h5>
+                            <p class="card-text text-muted">Tulis disini</p>
+                            <a href="detail-berita.html?id=2" class="btn btn-primary mt-2">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Berita 3 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-category="kegiatan">
+                    <div class="card berita-card h-100">
+                        <div class="berita-card-img-wrapper">
+                            <img src="asset/berita/placeholder.jpg" class="card-img-top" alt="Workshop Coding dan User Interface (UI) serta User Experience (UX)">
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <div class="berita-date">
+                                    <i class="bi bi-calendar3 me-1"></i> 27 Okt 2025
+                                </div>
+                                <div class="berita-social-icons">
+                                    <a href="#" class="text-primary"><i class="bi bi-facebook"></i></a>
+                                    <a href="#" class="text-danger"><i class="bi bi-instagram"></i></a>
+                                    <a href="#" class="text-dark"><i class="bi bi-tiktok"></i></a>
+                                    <a href="#" class="text-danger"><i class="bi bi-youtube"></i></a>
+                                </div>
+                            </div>
+                            <h5 class="card-title mb-3">Tulis disini</h5>
+                            <p class="card-text text-muted">Tulis disini</p>
+                            <a href="detail-berita.html?id=3" class="btn btn-primary mt-2">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Berita 4 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-category="prestasi">
+                    <div class="card berita-card h-100">
+                        <div class="berita-card-img-wrapper">
+                            <img src="asset/berita/placeholder.jpg" class="card-img-top" alt="Juara 1 Lomba Cerdas Cermat">
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <div class="berita-date">
+                                    <i class="bi bi-calendar3 me-1"></i> 20 Okt 2025
+                                </div>
+                                <div class="berita-social-icons">
+                                    <a href="#" class="text-primary"><i class="bi bi-facebook"></i></a>
+                                    <a href="#" class="text-danger"><i class="bi bi-instagram"></i></a>
+                                    <a href="#" class="text-dark"><i class="bi bi-tiktok"></i></a>
+                                    <a href="#" class="text-danger"><i class="bi bi-youtube"></i></a>
+                                </div>
+                            </div>
+                            <h5 class="card-title mb-3">Tulis disini</h5>
+                            <p class="card-text text-muted">Tulis disini</p>
+                            <a href="detail-berita.html?id=4" class="btn btn-primary mt-2">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Berita 5 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-category="kegiatan">
+                    <div class="card berita-card h-100">
+                        <div class="berita-card-img-wrapper">
+                            <img src="asset/berita/placeholder.jpg" class="card-img-top" alt="Peringatan Hari Pendidikan Nasional">
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <div class="berita-date">
+                                    <i class="bi bi-calendar3 me-1"></i> 2 Mei 2025
+                                </div>
+                                <div class="berita-social-icons">
+                                    <a href="#" class="text-primary"><i class="bi bi-facebook"></i></a>
+                                    <a href="#" class="text-danger"><i class="bi bi-instagram"></i></a>
+                                    <a href="#" class="text-dark"><i class="bi bi-tiktok"></i></a>
+                                    <a href="#" class="text-danger"><i class="bi bi-youtube"></i></a>
+                                </div>
+                            </div>
+                            <h5 class="card-title mb-3">Tulis disini</h5>
+                            <p class="card-text text-muted">Tulis disini</p>
+                            <a href="detail-berita.html?id=5" class="btn btn-primary mt-2">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Berita 6 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-category="kegiatan">
+                    <div class="card berita-card h-100">
+                        <div class="berita-card-img-wrapper">
+                            <img src="asset/berita/placeholder.jpg" class="card-img-top" alt="Kegiatan Penanaman Pohon">
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <div class="berita-date">
+                                    <i class="bi bi-calendar3 me-1"></i> 22 Apr 2025
+                                </div>
+                                <div class="berita-social-icons">
+                                    <a href="#" class="text-primary"><i class="bi bi-facebook"></i></a>
+                                    <a href="#" class="text-danger"><i class="bi bi-instagram"></i></a>
+                                    <a href="#" class="text-dark"><i class="bi bi-tiktok"></i></a>
+                                    <a href="#" class="text-danger"><i class="bi bi-youtube"></i></a>
+                                </div>
+                            </div>
+                            <h5 class="card-title mb-3">Tulis disini</h5>
+                            <p class="card-text text-muted">Tulis disini</p>
+                            <a href="detail-berita.html?id=6" class="btn btn-primary mt-2">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5><i class="bi bi-mortarboard-fill me-2"></i>SDN GAYAM 5 SUKOHARJO</h5>
+                    <p class="small">Membentuk generasi cerdas, berkarakter, dan berprestasi untuk masa depan Indonesia yang lebih baik.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Kontak</h5>
+                    <p class="small mb-1"><strong>Provinsi:</strong> Jawa Tengah</p>
+                    <p class="small mb-1"><strong>Kabupaten:</strong> Sukoharjo</p>
+                    <p class="small mb-1"><strong>Kecamatan:</strong> Sukoharjo</p>
+                    <p class="small mb-1"><strong>Kelurahan:</strong> Gayam</p>
+                    <p class="small mb-1"><i class="bi bi-telephone-fill me-2"></i>0271593604</p>
+                    <p class="small mb-1"><i class="bi bi-envelope-fill me-2"></i>sdn.gayam05skh@gmail.com</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Tautan Cepat</h5>
+                    <ul class="list-unstyled small">
+                        <li><a href="profil.html" class="text-white text-decoration-none">Profil Sekolah</a></li>
+                        <li><a href="berita.html" class="text-white text-decoration-none">Berita</a></li>
+                        <li><a href="kontak.html" class="text-white text-decoration-none">Kontak</a></li>
+                        <li><a href="ppdb.html" class="text-white text-decoration-none">PPDB</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="bg-white">
+            <div class="text-center small">
+                <p class="mb-0">&copy; 2024 SDN GAYAM 5 SUKOHARJO. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
